@@ -1,0 +1,162 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.5em;
+    margin: 30px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28.8px;
+    border-bottom: 2px solid gray;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 21px;
+    border-bottom: 1px solid gray;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contenidos {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.columna-1, .columna-2 {
+    width: 100%
+}
+
+.columna-1 {
+    position: sticky;
+    top: 10vh;
+    height: fit-content;
+}
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-inline-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 14px;
+}
+
+.acero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.articulo-discusion, .leer-editar {
+    border-bottom: 1px solid gray;
+}
+
+.Herramientas {
+    width: 110px;
+    height: 30px;
+    border: 1px solid blue;
+    background-color: white;
+    font-size: 14px;
+}
+
+.cuadro.naranja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /*width: 100%;*/
+}
+
+.logo {
+    top: 5px;
+    left: 0px;
+    
+}
+
+.arriba {
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.acceder {
+    text-align: right;
+    width: 100%;
+}
+
+input[type="text"] {
+    width: 200px;
+    height: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+.pure-button.pure-button-active {
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+.Referencias {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.columna-3, .columna-4 {
+    font-size: 14px;
+    width: 90% 
+}
+
+.Bibliografía {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.columna-5, .columna-6 {
+    font-size: 14px;
+    width: 90% 
+    
+}
+
+.control-de-autoridades {
+    margin: 30px;
+    border: gray solid 1px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.columna-7, .columna-8 {
+    font-size: 14px;
+    width: 95% 
+}
+
+.columna-7 {
+    background-color: #ddddff;
+    font-family: sans-serif;
+    border: white solid 2px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.categorias {
+    border: gray solid 1px;
+    width: 95% ;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.final {
+    font-size: 12px;
+    margin-left: 5%;
+}
