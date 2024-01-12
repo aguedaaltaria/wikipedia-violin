@@ -73,10 +73,8 @@ p {
     border: gray solid 1px;
     border-top: orange solid 5px;
     margin-bottom: 10px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin-left: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
     background-color: #f9f9f9;
 }
 
@@ -191,6 +189,161 @@ input[type="text"] {
     font-size: 16px;
 }
 
+.img-arbol {
+    display: grid;
+    background-color: #f9f9f9;
+    border: #B4BBC8 solid 1px;
+    width: 65%;
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+}
+
+.arbol {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-top: 3px;
+
+}
+
+.letra-img {
+    display: grid;
+    font-size: 10px;
+    justify-content: center;
+    line-height: normal;
+    height: fit-content;
+}
+
+.img-cuerda {
+    display: grid;
+    grid-template-columns: 1fr 3.5fr;
+    height: fit-content;
+}
+
+.img-cuerda2, .img-cuerda4 {
+    width: 90%;
+}
+
+.img-cuerda2 {
+    display: grid;
+    height: fit-content;
+    background-color: #f9f9f9;
+    border: #B4BBC8 solid 1px;
+}
+
+.img-cuerda3 {
+    height: fit-content;
+    border: #B4BBC8 solid 1px;
+    display: grid;
+    margin: 2px;
+}
+
+.letra-img-2 {
+    display: grid;
+    font-size: 12px;
+    height: fit-content;
+    margin-left: 3px;
+}
+
+.partes-violin {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.partes-violin-2, .partes-violin-3 {
+    width: 98%;
+}
+
+.partes-violin-3 {
+    width: 100%;
+    display: grid;
+    height: fit-content;
+    background-color: #f9f9f9;
+    border: #B4BBC8 solid 1px;
+    margin-top: 20px;
+}
+
+.img-partes-violin {
+    height: fit-content;
+    border: #B4BBC8 solid 1px;
+    display: grid;
+    margin: 2px;
+}
+
+.cuidado {
+    display: grid;
+    grid-template-columns: 3.5fr 1fr;
+}
+
+.cuidado-1, .cuidado-2 {
+    width: 98%
+}
+
+.cuidado-2 {
+    width: 100%;
+    display: grid;
+    height: fit-content;
+    margin-top: 40px;
+    background-color: #f9f9f9;
+    border: #B4BBC8 solid 1px;
+}
+
+.img-cuidado {
+    height: fit-content;
+    border: #B4BBC8 solid 1px;
+    display: grid;
+    margin: 2px;
+}
+
+.audio {
+    display: grid;
+    grid-template-columns: 3.5fr 1fr;
+}
+
+.audio-text, .audio-1 {
+    width: 98%;
+}
+
+.audio-1 {
+    width: 100%;
+    display: grid;
+    height: fit-content;
+    background-color: #f9f9f9;
+    border: #B4BBC8 solid 1px;
+}
+
+.audioogg {
+    height: fit-content;
+    border: #B4BBC8 solid 1px;
+    display: grid;
+    margin: 2px;
+    
+}
+
+.violin-5c {
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+}
+
+.violin-5c-1, .violin-5c-2 {
+    width: 98%;
+}
+
+.violin-5c-2 {
+    width: 100%;
+    display: grid;
+    height: fit-content;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border: #B4BBC8 solid 1px;
+}
+
+.img-violin-5c {
+    height: fit-content;
+    border: #B4BBC8 solid 1px;
+    display: grid;
+    margin: 2px;
+}
 
 .Referencias {
     margin: 30px;
