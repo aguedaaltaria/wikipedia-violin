@@ -1,7 +1,8 @@
 body {
     font-family: sans-serif;
     line-height: 1.5em;
-    margin: 30px;
+    margin: 100px;
+    margin-top: 5px;
 }
 
 h1 {
@@ -24,7 +25,7 @@ h3 {
 
 .contenidos {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
 }
 
 .columna-1, .columna-2 {
@@ -35,6 +36,7 @@ h3 {
     position: sticky;
     top: 10vh;
     height: fit-content;
+    align-content: flex-start;
 }
 
 
@@ -65,11 +67,96 @@ p {
 }
 
 .cuadro.naranja {
-    display: flex;
+    display: grid;
+    width: 80%;
+    grid-template-columns: 1fr 10fr;
+    border: gray solid 1px;
+    border-top: orange solid 5px;
+    margin-bottom: 10px;
     justify-content: center;
     align-items: center;
-    position: relative;
-    /*width: 100%;*/
+    align-content: center;
+    margin-left: 80px;
+    background-color: #f9f9f9;
+}
+
+.cua-1, .cua-2 {
+    width: 95%;
+}
+
+.cua-1 {
+    display: flex;
+    align-content: center;
+    margin: 2px;
+    margin-left: 10px;
+}
+
+.violin {
+    display: grid;
+    grid-template-columns: 2.5fr 1.1fr;
+}
+
+.normal, .cuadro-azul {
+    width: 95%
+}
+
+.cuadro-azul {
+    border-color: #B4BBC8 solid 1px;
+    height: fit-content;
+}
+
+.dentro-cuadro{
+    border: #f9f9f9 solid 4px;
+    background-color: #f9f9f9;
+}
+
+.violin2 {
+    font-size: 18px;
+    background-color: #b0c4de;
+    text-align: center;
+    color: inherit;
+    padding-top:  10px;
+    padding-bottom: 10px;
+
+}
+
+.img-violin, .img-violin-2 {
+    text-align: center;
+    margin: 3px;
+}
+
+.Características, .Tesirura {
+    background-color: #b0c4de;
+    text-align: center;
+    color: inherit;
+}
+
+.Clasificación, .musicos {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    margin-top: 0px;
+}
+
+.cla-1, .cla-2 {
+    width: 95%;
+    font-size: 12px;
+}
+
+.Instrumentos-relacionados {
+    display: grid;
+    grid-template-columns: 2fr 3fr; 
+    margin-top: 0px;
+}
+
+.ins-1, .ins-2 {
+    width: 95%;
+    font-size: 12px;
+
+}
+
+.mus-1, .mus-2 {
+    width: 95%;
+    font-size: 12px;
 }
 
 .logo {
@@ -132,6 +219,7 @@ input[type="text"] {
     margin: 30px;
     border: gray solid 1px;
     display: grid;
+    background-color: #f9f9f9;
     grid-template-columns: 1fr 3fr;
 }
 
@@ -149,11 +237,17 @@ input[type="text"] {
     align-items: center;
     align-content: center;
 }
+
+.columna-8 {
+    background-color: #f9f9f9 ;
+}
+
 .categorias {
     border: gray solid 1px;
     width: 95% ;
     margin: 10px;
     padding-left: 10px;
+    background-color: #f9f9f9;
 }
 
 .final {
